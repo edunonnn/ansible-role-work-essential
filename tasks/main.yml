@@ -1,0 +1,16 @@
+---
+# tasks file for work-essential
+  - name: Install essential packages
+    become: yes
+    apt:
+      name: '{{ item }}'
+      state: present
+      update_cache: yes
+    with_items:
+        - build-essential
+        - vim
+        - xstow # xstow is manual-built package management tool
+        - tree
+        - htop
+        - git
+        - git-extras
