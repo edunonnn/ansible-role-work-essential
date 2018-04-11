@@ -14,3 +14,10 @@
         - htop
         - git
         - git-extras
+        - tmux
+        - cscope
+        - sshfs
+        - aspell
+        - xclip
+        - xsel
+        - global
