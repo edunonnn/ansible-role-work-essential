@@ -21,3 +21,4 @@
         - xclip
         - xsel
         - global
+        - net-tools
