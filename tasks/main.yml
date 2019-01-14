@@ -22,3 +22,6 @@
         - xsel
         - global
         - net-tools
+        - autojump
+        - nfs-kernel-server
+        - nfs-common
